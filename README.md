@@ -1,4 +1,4 @@
-# trabalho-integrador---sistema-AgroVet-Pet
+# trabalho-integrador: sistema AgroTrevo Pet
 
 Descrição do Trabalho Integrador - SISTEMA AGROTREVO PET 
 
