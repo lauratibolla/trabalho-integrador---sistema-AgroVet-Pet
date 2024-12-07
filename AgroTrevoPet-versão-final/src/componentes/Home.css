@@ -1,0 +1,25 @@
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f6f4ed;
+  }
+  
+.conteudoHome {
+    margin-top: 5rem;
+    text-align: center;
+}
+  
+.tituloHome {
+    font-size: 2.5rem;
+    color: #0b5722;
+    margin-bottom: 1rem;
+}
+  
+.mensagemHome {
+    font-size: 1.2rem;
+    color: #0b5722;
+}
+  

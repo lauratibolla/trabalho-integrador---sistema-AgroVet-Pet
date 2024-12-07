@@ -1,0 +1,46 @@
+.login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #0b5722;
+  padding: 1rem;
+}
+
+.titulo {
+  margin-bottom: 1rem;
+  font-size: 2.5em;
+  font-weight: 500;
+  color: #efeeff;
+  text-align: center;
+}
+
+.loginInput,
+.senhaInput {
+  width: 90%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #004c54;
+  border-radius: 5px;
+}
+
+.buttonSearch {
+  padding: 0.75rem 1.5rem;
+  background: #004c54;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttonSearch:hover {
+  background: #97d1a9;
+}
