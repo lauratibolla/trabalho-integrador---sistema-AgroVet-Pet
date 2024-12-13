@@ -8,6 +8,7 @@ import Financeiro from './componentes/Financeiro';
 import Registro from './componentes/Registro';
 import CadastroTutor from './componentes/CadastroTutor';
 import Consulta from './componentes/Consulta';
+import Calendario from './componentes/Calendario';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false); //login
@@ -27,7 +28,7 @@ function App() {
       case 'registro':
         return <Registro onNavigate={setCurrentPage}/>;
       case 'calendario':
-        return <h2>Calendário</h2>;
+        return <Calendario onNavigate={setCurrentPage}/>;
       case 'financeiro':
         return <Financeiro onNavigate={setCurrentPage}/>;
       case 'consulta':
